@@ -8,28 +8,18 @@ public class HomeWork2 {
     //机房数目
     int numberOfRooms;
 
-    public String showName(){
-        name = "苏州总部";
-        return  name;
+    public String show(){
+        String str = "名称："+name +"\n教室数目："+numberOfClassrooms+"\n机房数目："+numberOfRooms;
+        return  str;
     }
 
-
-    public int showOne(){
-        numberOfRooms=20;
-        return numberOfRooms;
-    }
-
-
-    public  int showTwo(){
-        numberOfClassrooms=10;
-        return numberOfClassrooms;
-    }
 
 
     public static void main(String[] args) {
         HomeWork2 homeWork2 = new HomeWork2();
-        System.out.println("中心名称："+homeWork2.showName());
-        System.out.println("中心教室数目:"+homeWork2.showTwo());
-        System.out.println("中心机房数目："+homeWork2.showOne());
+        homeWork2.name = "xx";
+        homeWork2.numberOfClassrooms=10;
+        homeWork2.numberOfRooms=20;
+        System.out.println(homeWork2.show());
     }
 }
