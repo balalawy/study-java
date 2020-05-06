@@ -15,7 +15,7 @@ public class Person {
 
     public static void main(String[] args) {
         Person person =new Person();
-        person.rabbit =new Rabbit();
+        person.rabbit = new Rabbit();
         person.setName("小明");
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入品种：");
