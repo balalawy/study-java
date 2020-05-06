@@ -2,7 +2,7 @@ package Date0506;
 
 import java.util.Scanner;
 
-public class PersonTest {
+public class Person1Test {
     public static void main(String[] args) {
         Person1 person = new Person1();
         for (int i = 0; ; ) {
