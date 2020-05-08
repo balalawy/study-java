@@ -6,13 +6,13 @@ public class ChangeAdmin {
 
     public void inputData() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("请你输入用户名：");
-        String userName = sc.next();
-        System.out.println("请你输入密码：");
-        String password = sc.next();
-        Administrator admin = new Administrator();
-        boolean flag = admin.login(userName, password);
         for (int i = 0; ; ) {
+            System.out.println("请你输入用户名：");
+            String userName = sc.next();
+            System.out.println("请你输入密码：");
+            String password = sc.next();
+            Administrator admin = new Administrator();
+            boolean flag = admin.login(userName, password);
             if (flag) {
                 //修改密码
                 System.out.println("请输入新的密码：");
