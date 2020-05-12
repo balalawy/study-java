@@ -32,7 +32,5 @@ public class ChangeAdmin {
                 System.out.println("登陆失败！");
             }
         }
-
-
     }
 }
