@@ -13,6 +13,7 @@ public class Father {
         this.age = age;
     }
 
+    //set方法可以不写
     public String getName() {
         return name;
     }
